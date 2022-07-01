@@ -13,8 +13,10 @@ int main(void)
 	for (a = '1'; a <= '9'; a++)
 	{
 		for (b = '1'; b <= '9'; b++)
+		{
 			putchar(a);
 			putchar(b);
 			putchar(',');
+		}
 	}
 }
