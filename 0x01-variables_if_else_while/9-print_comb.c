@@ -9,7 +9,7 @@ int main(void)
 {
 	int a;
 
-	a = '1';
+	a = '0';
 	do {
 		putchar(a);
 		if (a != '9')
