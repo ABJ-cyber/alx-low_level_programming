@@ -1,3 +1,5 @@
+#include "main.h"
+
 /**
  * print_sign - print sign of a number
  * @n: number input
@@ -5,6 +7,8 @@
  */
 int print_sign(int n)
 {
+	int a = -1;
+
 	if (n > 0)
 	{
 		_putchar('+');
@@ -18,6 +22,6 @@ int print_sign(int n)
 	else
 	{
 		_putchar('-');
-		return ('-1');
+		return (a);
 	}
 }
