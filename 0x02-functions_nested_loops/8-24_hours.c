@@ -18,7 +18,7 @@ void jack_bauer(void)
 		{
 			for (c = 0; c <= 9; c++)
 			{
-				d = (a - (a % 10))/10;
+				d = (a - (a % 10)) / 10;
 				if (d <= 0)
 					d = 0;
 				e = a % 10;
@@ -28,6 +28,7 @@ void jack_bauer(void)
 				_putchar(':');
 				_putchar(b + '0');
 				_putchar(c + '0');
+				_putchar('\n');
 			}
 		}
 	}
