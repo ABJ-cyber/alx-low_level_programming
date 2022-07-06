@@ -9,10 +9,11 @@
 int main(void)
 {
 	int fib[52];
+	int i;
 
 	fib[0] = 0;
 	fib[1] = 1;
-	for (int i = 2; i <= 50; i++)
+	for (i = 2; i <= 50; i++)
 	{
 		fib[i] = fib[i - 1] + fib[i - 2];
 		if (i < 50)
