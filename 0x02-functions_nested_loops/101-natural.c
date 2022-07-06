@@ -2,11 +2,11 @@
 #include <stdio.h>
 
 /**
- * under - prints sum of multiples of 3 under 1084
+ * main - prints sum of multiples of 3 under 1084
  *
  * Return: nothing
  */
-void under(void)
+void main(void)
 {
 	int sum = 0;
 	int i = 0;
