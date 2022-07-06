@@ -22,6 +22,7 @@ void print_to_98(int n)
 				_putchar(' ');
 			}
 		}
+	}
 	else
 		for(i = n; i >= 98; i--)
 		{
