@@ -8,7 +8,7 @@
 
 int main(void)
 {
-	int fib[52];
+	long int fib[52];
 	int i;
 
 	fib[0] = 0;
@@ -17,9 +17,9 @@ int main(void)
 	{
 		fib[i] = fib[i - 1] + fib[i - 2];
 		if (i < 50)
-			printf("%d, ", fib[i]);
+			printf("%ld, ", fib[i]);
 		else
-			printf("%d\n", fib[i]);
+			printf("%ld\n", fib[i]);
 	}
 	return (0);
 }
