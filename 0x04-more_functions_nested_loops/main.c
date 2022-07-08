@@ -9,9 +9,9 @@ int main(void)
 {
 	int i;
 
-	i = '8';
+	i = 8;
 
-	print_line(i);
+	print_square(i);
 
 	return (0);
 }
