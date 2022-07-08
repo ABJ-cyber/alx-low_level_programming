@@ -11,7 +11,7 @@ int main(void)
 
 	i = '8';
 
-	_isdigit(i);
+	print_most_numbers();
 
 	return (0);
 }
