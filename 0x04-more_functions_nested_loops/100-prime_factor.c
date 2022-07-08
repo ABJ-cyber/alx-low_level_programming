@@ -9,20 +9,17 @@
 int main(void)
 {
 	int i;
-	int max;
+	long int max;
 	long int n = 612852475143;
 
 	max = -1;
 
-	for (i = 3; i <= n / 100000; i += 2)
+	for (i = 1; i <= sqrt(n); i ++)
 	{
-		while (n % i == 0)
-		{
-			max = i;
-			n = n / i;
-		}
+		if (n % i == 0)
+			max = n / i;
 	}
 	
-	printf("4019\n");
+	printf("%ld\n", max);
 }
 
