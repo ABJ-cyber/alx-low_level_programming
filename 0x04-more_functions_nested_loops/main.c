@@ -11,7 +11,7 @@ int main(void)
 
 	i = '8';
 
-	more_numbers();
+	print_line(i);
 
 	return (0);
 }
