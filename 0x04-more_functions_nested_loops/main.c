@@ -9,7 +9,7 @@ int main(void)
 {
 	int i;
 
-	i = 8;
+	i = 0;
 
 	print_square(i);
 
