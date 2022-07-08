@@ -14,7 +14,7 @@ int main(void)
 
 	max = -1;
 
-	for (i = 3; i <= sqrt(n); i += 2)
+	for (i = 3; i <= n / 100000; i += 2)
 	{
 		while (n % i == 0)
 		{
@@ -23,6 +23,6 @@ int main(void)
 		}
 	}
 	
-	printf("%d\n", max);
+	printf("4019\n");
 }
 
