@@ -9,9 +9,9 @@ int main(void)
 {
 	int i;
 
-	i = '9';
+	i = 9;
 
-	_isdigit(i);
+	print_diagonal(i);
 
 	return (0);
 }
