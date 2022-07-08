@@ -14,12 +14,11 @@ int main(void)
 
 	max = -1;
 
-	for (i = 1; i <= sqrt(n); i ++)
+	for (i = 1; i <= sqrt(n); i++)
 	{
 		if (n % i == 0)
 			max = n / i;
 	}
-	
 	printf("%ld\n", max);
 
 	return (0);
