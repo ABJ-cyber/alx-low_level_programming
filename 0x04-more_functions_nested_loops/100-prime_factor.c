@@ -21,5 +21,6 @@ int main(void)
 	}
 	
 	printf("%ld\n", max);
-}
 
+	return (0);
+}
