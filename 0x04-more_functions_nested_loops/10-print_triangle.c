@@ -12,6 +12,11 @@ void print_triangle(int size)
 	int row;
 	int spaces;
 	int has;
+	
+	if (size <= 0)
+	{
+		putchar('\n');
+	}
 
 	for (row = 1; row <= size; row++)
 	{
