@@ -10,7 +10,6 @@
 void print_triangle(int size)
 {
 	int row;
-	int column;
 	int spaces;
 	int has;
 
