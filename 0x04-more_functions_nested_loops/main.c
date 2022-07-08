@@ -11,7 +11,7 @@ int main(void)
 
 	i = '8';
 
-	print_most_numbers();
+	more_numbers();
 
 	return (0);
 }
