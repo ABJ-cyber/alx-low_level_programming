@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * print_triangle(int size)
+ * print_triangle - prints a triangle
  * @size: size of triangle
  * return: void
  */
@@ -12,7 +12,7 @@ void print_triangle(int size)
 	int row;
 	int spaces;
 	int has;
-	
+
 	if (size <= 0)
 	{
 		putchar('\n');
