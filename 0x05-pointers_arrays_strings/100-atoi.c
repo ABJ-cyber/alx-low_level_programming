@@ -6,10 +6,10 @@
  * Return: int
  */
 
-double _atoi(char *s)
+int _atoi(char *s)
 {
 	int i, neg, start;
-	double res;
+	int res;
 
 	res = 0;
 	neg = 0;
