@@ -8,10 +8,10 @@
 
 int _atoi(char *s)
 {
-	int res;
+	int res, i;
 
 	res = 0;
-	for (int i = 0; str[i] != '\0'; ++i)
+	for (i = 0; str[i] != '\0'; ++i)
 		res = res * 10 + str[i] - '0';
 	return res;
 }
