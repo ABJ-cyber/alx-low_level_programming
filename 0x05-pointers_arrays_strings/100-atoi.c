@@ -27,7 +27,7 @@ int _atoi(char *s)
 			}
 			temp = s[i] - '0';
 			if (res * 10 + temp > 2147483647)
-				return l(-2147483648);
+				return (-2147483648);
 			res = res * 10 + temp;
 		}
 		else if (s[i] == '-')
