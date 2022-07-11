@@ -8,8 +8,8 @@
 
 int _atoi(char *s)
 {
-	int i, neg, start;
-	int res;
+	int i, neg, start, res;
+	long int temp;
 
 	res = 0;
 	neg = 0;
@@ -25,7 +25,8 @@ int _atoi(char *s)
 			{
 				start = 1;
 			}
-			res = res * 10 + s[i] - '0';
+			temp = res * 10 + s[i] - '0';
+			res = temp
 		}
 		else if (s[i] == '-')
 			neg += 1;
