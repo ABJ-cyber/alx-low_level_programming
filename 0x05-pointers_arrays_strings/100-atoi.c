@@ -8,8 +8,9 @@
 
 int _atoi(char *s)
 {
-	int i, neg, start, res;
+	int i, neg, start, result;
 	int temp;
+	double res;
 
 	res = 0;
 	neg = 0;
@@ -26,10 +27,7 @@ int _atoi(char *s)
 				start = 1;
 			}
 			temp = s[i] - '0';
-			if (res * 10 + temp > 2147483647)
-				return (-2147483648);
-			else
-				res = res * 10 + temp;
+			res = res * 10 + temp;
 		}
 		else if (s[i] == '-')
 			neg += 1;
@@ -39,7 +37,8 @@ int _atoi(char *s)
 
 	if (neg % 2 == 1)
 		res *= -1;
+	result = res;
 
 
-	return (res);
+	return (result);
 }
