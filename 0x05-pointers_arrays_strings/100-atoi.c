@@ -28,7 +28,7 @@ int _atoi(char *s)
 		}
 		else if (s[i] == '-')
 			neg += 1;
-		else if (start = 1)
+		else if (start == 1)
 			start = 0;
 	}
 
