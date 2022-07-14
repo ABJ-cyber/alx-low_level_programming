@@ -11,10 +11,10 @@
 
 char *_strncpy(char *dest, char *src, int n)
 {
-	if (destination == NULL)
-		return (NULL);
-
 	char *current = dest;
+
+	if (dest == NULL)
+		return (NULL);
 
 	while (*src && n--)
 	{
