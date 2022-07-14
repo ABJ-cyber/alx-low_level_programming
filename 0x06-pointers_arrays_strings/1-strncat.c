@@ -6,14 +6,14 @@
  * @dest: destination
  * @src: source
  * @n: use most n bytes
- * Retunr: char
+ * Return: char
  */
 
 char *_strncat(char *dest, char *src, int n)
 {
-	char* current = dest + strlen(dest);
+	char *current = dest + strlen(dest);
 
-	while (*src!= '\0' && n--)
+	while (*src != '\0' && n--)
 	{
 		*current++ = *src++;
 	}
