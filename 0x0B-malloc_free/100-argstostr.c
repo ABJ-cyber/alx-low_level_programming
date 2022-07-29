@@ -1,23 +1,6 @@
 #include <stdio.h>
 #include "main.h"
-
-/**
- * _strlen - length of a string
- * @s: input char
- * Return: length of a string
- */
-
-int _strlen(char *s)
-{
-	int l = 0;
-
-	while (*s != '\0')
-	{
-		s++;
-		l++;
-	}
-	return (l);
-}
+#include <string.h>
 
 /**
  * argstostr - concat
@@ -40,7 +23,7 @@ char *argstostr(int ac, char **av)
 
 	for (i = 0; i < ac; i++)
 	{
-		len = _strlen(av[i]) + 1;
+		len = strlen(av[i]) + 1;
 		R += len;
 	}
 	p = malloc(sizeof(char) * R + 1);
@@ -52,7 +35,7 @@ char *argstostr(int ac, char **av)
 
 	for (i = 0; i < ac; i++)
 	{
-		len = _strlen(av[i]);
+		len = strlen(av[i]);
 
 		for (j = 0; j < len; j++, k++)
 		{
